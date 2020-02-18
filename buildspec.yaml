@@ -5,7 +5,6 @@ run-as: Linux-user-name
 env:
   secrets-manager:
     key: tags:h1
-
 phases:
   install:
     runtime-versions:
