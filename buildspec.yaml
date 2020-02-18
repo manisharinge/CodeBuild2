@@ -1,0 +1,12 @@
+version: 0.2
+
+run-as: Linux-user-name
+
+env:
+  secrets-manager:
+    key: Key1:username
+
+phases:
+  install:
+    runtime-versions:
+      ruby: 2.6
