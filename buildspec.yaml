@@ -4,7 +4,7 @@ run-as: Linux-user-name
 
 env:
   secrets-manager:
-    key: Key1:username
+    key: a:b
 
 phases:
   install:
